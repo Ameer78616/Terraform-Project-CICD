@@ -18,3 +18,9 @@ variable "vpc_name" {
   type        = string
   default     = "Project-vpc"
 }
+
+variable "publicsubnet_name" {
+  description = "subnetname"
+  type = string
+  default = "Project-subnet-public1-us-east-1a"
+}
